@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Quiz Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Nav bar-->
+    <ul class="nav justify-content-center nav-fill">
+      <li class="nav-item">
+          <a class="nav-link" href="./start.html">Home</a>
+      </li>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link active" href="./scores.html">High Scores</a>
+      </li>
+  </ul>
+
+  <!--Timer badge-->
+  <button type="button" class="btn btn-light btn-lg">
+    <strong>Time Left:</strong> <span class="badge badge-danger" id="timer"></span>
+  </button>
+
+  <div class="jumbotron">
+    <h1 class="display-5" id="question"></h1>
+    <hr class="my-4">
+    <ul class="lead" id="option-list"></ul>
+    <hr class="my-4">
+    <p id="question-result"></p>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
