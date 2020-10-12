@@ -2,39 +2,42 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Code Quiz Game</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
     <!--Nav bar-->
     <ul class="nav justify-content-center nav-fill">
-      <li class="nav-item">
-          <a class="nav-link" href="./start.html">Home</a>
-      </li>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link active" href="./scores.html">High Scores</a>
-      </li>
-  </ul>
+        <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="./scores.html">High Scores</a>
+        </li>
+    </ul>
 
-  <!--Timer badge-->
-  <button type="button" class="btn btn-light btn-lg">
-    <strong>Time Left:</strong> <span class="badge badge-danger" id="timer"></span>
-  </button>
 
-  <div class="jumbotron">
-    <h1 class="display-5" id="question"></h1>
-    <hr class="my-4">
-    <ul class="lead" id="option-list"></ul>
-    <hr class="my-4">
-    <p id="question-result"></p>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4" style="text-align: center;">JavaScript Fundamentals Coding Quiz</h1>
+      <p class="lead" style="text-align: center;">This is a quiz intended to assess the basics of Javascript.
+    <hr>
+You will be given a series of multiple choice questions, just click on one of the choices to answer the question. Time will be deducted for every wrong answer. Good Luck!</p>
+      <div class="text-center">
+            <a class="btn btn-primary btn-lg" href="./index.html" role="button">Click Me to Start the Quiz</a>
+      </div>
+    
+    </div>
   </div>
 
-  <script src="./script.js"></script>
+
 </body>
 
 </html>
